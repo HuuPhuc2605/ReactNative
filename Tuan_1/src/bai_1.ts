@@ -9,5 +9,8 @@ export class Person{
         console.log('Tên: ' + this.name);
         console.log('Tuổi: ' + this.age);
     }
+    toString(): string {
+        return `Tên: ${this.name}, Tuổi: ${this.age}`;
+      }
 }
 
