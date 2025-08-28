@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2018",   
+    "lib": ["es2018", "dom"],                 
+    "module": "commonjs",            
+    "rootDir": "./src",     //mã nguồn nằm trong src.         
+    "outDir": "./dist",     //khi biên dịch sẽ bỏ file .js vào dist.         
+    "strict": true,                  
+    "esModuleInterop": true          
+  }
+}
