@@ -1,5 +1,7 @@
 "use strict";
-function hello(name) {
-    console.log(`Xin chào, ${name}!`);
-}
-hello("Phúc");
+Object.defineProperty(exports, "__esModule", { value: true });
+const bai_4_1 = require("./bai_4");
+// new Hello();
+// new Number();
+// new Error();
+new bai_4_1.Random();
